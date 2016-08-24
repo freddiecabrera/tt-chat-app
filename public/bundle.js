@@ -27287,10 +27287,10 @@
 	var Chat = function (_Component) {
 	  _inherits(Chat, _Component);
 
-	  function Chat(props) {
+	  function Chat() {
 	    _classCallCheck(this, Chat);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Chat).call(this, props));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Chat).call(this));
 
 	    _this.state = {
 	      messages: [],
