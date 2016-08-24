@@ -45,7 +45,7 @@ class Chat extends Component {
           <input
             value={messageValue}
             onChange={this.handleTextChange.bind(this)}
-            placeholder='iChat...'
+            placeholder='Your message...'
             className='chat-input' type='text'
           />
           <button type='submit' className='send-btn'>Send</button>

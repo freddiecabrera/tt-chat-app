@@ -39,20 +39,22 @@ body {
   height: 100%;
 }
 
-.search-button-container {
+.chat-button-container {
   text-align: center;
 }
 
-.search-button {
+.chat-button {
   margin-top: 30%;
   color: white;
   border-color: white;
 }
 
-.search-button:hover {
-  color: #E83888;
-  border-color: #E83888;
+.chat-button:hover {
+  color: #5E44FD;
+  border-color: #5E44FD;
 }
+
+/*------------------------------------ Chat View ------------------------------------*/
 
 .messages-container {
   padding-top: 10%;
@@ -94,7 +96,7 @@ input[type=text].chat-input {
   border-color: #5E44FD;
 }
 
-
+/*------------------------------------ small ------------------------------------*/
 @media (min-width : 0px) and (max-width : 667px) {
   .logo {
       height: 45px;
@@ -103,7 +105,7 @@ input[type=text].chat-input {
       padding-left: 4rem;
   }
 
-  .search-button {
+  .chat-button {
       margin-top: 120%;
   }
 
@@ -114,8 +116,6 @@ input[type=text].chat-input {
       width: 140%;
       height: 100%;
   }
-
-
 
   input[type=text].chat-input:focus {
     border: 1px solid #141519;
@@ -156,6 +156,7 @@ input[type=text].chat-input {
   }
 }
 
+/*------------------------------------ Medium ------------------------------------*/
 @media (min-width: 668px) and (max-width: 768px) {
 
   .input-container {
@@ -181,7 +182,7 @@ input[type=text].chat-input {
     overflow: scroll;
   }
 
-  .search-button {
+  .chat-button {
       margin-top: 75%;
       color: white;
       border-color: white;
@@ -202,8 +203,11 @@ input[type=text].chat-input {
   }
  }
 
+/*------------------------------------ Large ------------------------------------*/
+
+
 @media (min-width: 769px) and (width: 1200px) {
-  .search-button {
+  .chat-button {
       margin-top: 50%;
       color: white;
       border-color: white;

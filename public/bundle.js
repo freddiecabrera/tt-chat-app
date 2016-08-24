@@ -27200,13 +27200,13 @@
 	    _react2.default.createElement(_Header2.default, null),
 	    _react2.default.createElement(
 	      'div',
-	      { className: 'search-button-container' },
+	      { className: 'chat-button-container' },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
 	        { to: '/chat' },
 	        _react2.default.createElement(
 	          'button',
-	          { className: 'search-button' },
+	          { className: 'chat-button' },
 	          'Chat Now!'
 	        )
 	      )
@@ -27230,6 +27230,8 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _reactRouter = __webpack_require__(173);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Header = function Header(props) {
@@ -27239,7 +27241,11 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: '12 column' },
-	      _react2.default.createElement('img', { className: 'logo', src: '../../public/chat.svg', alt: 'logo' })
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/' },
+	        _react2.default.createElement('img', { className: 'logo', src: '../../public/chat.svg', alt: 'logo' })
+	      )
 	    )
 	  );
 	};
@@ -27340,7 +27346,7 @@
 	          _react2.default.createElement('input', {
 	            value: messageValue,
 	            onChange: this.handleTextChange.bind(this),
-	            placeholder: 'iChat...',
+	            placeholder: 'Your message...',
 	            className: 'chat-input', type: 'text'
 	          }),
 	          _react2.default.createElement(
