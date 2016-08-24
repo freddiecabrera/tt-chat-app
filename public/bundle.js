@@ -27303,7 +27303,6 @@
 	  _createClass(Chat, [{
 	    key: 'handleTextChange',
 	    value: function handleTextChange(e) {
-	      console.log(e.target.value);
 	      this.setState({ messageValue: e.target.value });
 	    }
 	  }, {

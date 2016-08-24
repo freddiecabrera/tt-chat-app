@@ -1,4 +1,4 @@
-require('babel-register'); 
+require('babel-register');
 
 const express = require('express');
 const React = require('react');
@@ -15,6 +15,7 @@ const template = _.template(baseTemplate);
 const ClientApp = require('./src/App.js');
 const Routes = ClientApp.Routes()
 const app = express();
+
 
 app.use('/public', express.static('./public'));
 

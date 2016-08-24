@@ -14,7 +14,6 @@ class Chat extends Component {
   }
 
   handleTextChange (e) {
-    console.log(e.target.value);
     this.setState({ messageValue: e.target.value });
   }
 
