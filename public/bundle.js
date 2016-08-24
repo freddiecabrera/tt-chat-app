@@ -27394,6 +27394,10 @@
 	  );
 	};
 
+	MessageBaloon.propTypes = {
+	  message: _react2.default.PropTypes.string
+	};
+
 	exports.default = MessageBaloon;
 
 /***/ }

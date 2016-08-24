@@ -6,4 +6,9 @@ const MessageBaloon = props => (
   </div>
 );
 
+
+MessageBaloon.propTypes = {
+  message: React.PropTypes.string
+};
+
 export default MessageBaloon;

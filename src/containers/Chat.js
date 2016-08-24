@@ -21,7 +21,7 @@ class Chat extends Component {
 
   handleChatSend (e) {
     e.preventDefault();
-    this.state.messageValue !== '' ?this.state.messages.push(this.state.messageValue) : null;
+    this.state.messageValue !== '' ? this.state.messages.push(this.state.messageValue) : null;
     this.setState({ messageValue: '' });
     this.messageScroll();
   }
